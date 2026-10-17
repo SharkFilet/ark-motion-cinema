@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHARKFILET • Star Keep: Ark Motion Cinema</title>
+    <meta name="description" content="Sequential cinematic comic book movie engine and Veo AI video generator bridging Prologue: Peace with Draoi through Star Keep: Pilot on Verdantis." />
+    <meta property="og:title" content="SHARKFILET • Star Keep: Ark Motion Cinema" />
+    <meta property="og:description" content="Sequential cinematic comic book movie engine and Veo AI video generator bridging Prologue: Peace with Draoi through Star Keep: Pilot on Verdantis." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Runtime constraint: HMR is disabled in AI Studio. Suppress benign WebSocket/HMR disconnect events.
+      window.addEventListener('error', function(event) {
+        if (event && (
+          (event.message && (event.message.includes('WebSocket') || event.message.includes('@vite/client') || event.message.includes('ModuleRunnerTransport'))) ||
+          (event.filename && event.filename.includes('@vite/client'))
+        )) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event && event.reason && String(event.reason).includes('WebSocket')) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

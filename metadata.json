@@ -1,0 +1,6 @@
+{
+  "name": "SHARKFILET • Star Keep: Ark Motion Cinema",
+  "description": "Sequential cinematic comic book movie engine and Veo AI video generator bridging Prologue: Peace with Draoi through Star Keep: Pilot on Verdantis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
